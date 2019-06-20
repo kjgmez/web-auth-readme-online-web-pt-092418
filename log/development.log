@@ -1280,3 +1280,834 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 00:51:22 -0500
+Started GET "/" for ::1 at 2019-06-20 10:45:59 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+  
+Gem::LoadError (Specified 'sqlite3' for database adapter, but the gem is not loaded. Add `gem 'sqlite3'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  
+activerecord (5.0.7.2) lib/active_record/connection_adapters/connection_specification.rb:176:in `rescue in spec'
+activerecord (5.0.7.2) lib/active_record/connection_adapters/connection_specification.rb:173:in `spec'
+activerecord (5.0.7.2) lib/active_record/connection_handling.rb:53:in `establish_connection'
+activerecord (5.0.7.2) lib/active_record/railtie.rb:125:in `block (2 levels) in <class:Railtie>'
+activesupport (5.0.7.2) lib/active_support/lazy_load_hooks.rb:69:in `instance_eval'
+activesupport (5.0.7.2) lib/active_support/lazy_load_hooks.rb:69:in `block in execute_hook'
+activesupport (5.0.7.2) lib/active_support/lazy_load_hooks.rb:60:in `with_execution_control'
+activesupport (5.0.7.2) lib/active_support/lazy_load_hooks.rb:65:in `execute_hook'
+activesupport (5.0.7.2) lib/active_support/lazy_load_hooks.rb:50:in `block in run_load_hooks'
+activesupport (5.0.7.2) lib/active_support/lazy_load_hooks.rb:49:in `each'
+activesupport (5.0.7.2) lib/active_support/lazy_load_hooks.rb:49:in `run_load_hooks'
+activerecord (5.0.7.2) lib/active_record/base.rb:324:in `<module:ActiveRecord>'
+activerecord (5.0.7.2) lib/active_record/base.rb:24:in `<top (required)>'
+activesupport (5.0.7.2) lib/active_support/dependencies.rb:293:in `require'
+activesupport (5.0.7.2) lib/active_support/dependencies.rb:293:in `block in require'
+activesupport (5.0.7.2) lib/active_support/dependencies.rb:259:in `load_dependency'
+activesupport (5.0.7.2) lib/active_support/dependencies.rb:293:in `require'
+activerecord (5.0.7.2) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.7.2) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/handler/webrick.rb:86:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.9ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (82.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_kjgmez__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__3765796486698618431_70229117206900 at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (74.6ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (161.9ms)
+Started GET "/" for ::1 at 2019-06-20 10:48:26 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+  
+Gem::LoadError (Specified 'sqlite3' for database adapter, but the gem is not loaded. Add `gem 'sqlite3'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  
+activerecord (5.0.7.2) lib/active_record/connection_adapters/connection_specification.rb:176:in `rescue in spec'
+activerecord (5.0.7.2) lib/active_record/connection_adapters/connection_specification.rb:173:in `spec'
+activerecord (5.0.7.2) lib/active_record/connection_handling.rb:53:in `establish_connection'
+activerecord (5.0.7.2) lib/active_record/railtie.rb:125:in `block (2 levels) in <class:Railtie>'
+activesupport (5.0.7.2) lib/active_support/lazy_load_hooks.rb:69:in `instance_eval'
+activesupport (5.0.7.2) lib/active_support/lazy_load_hooks.rb:69:in `block in execute_hook'
+activesupport (5.0.7.2) lib/active_support/lazy_load_hooks.rb:60:in `with_execution_control'
+activesupport (5.0.7.2) lib/active_support/lazy_load_hooks.rb:65:in `execute_hook'
+activesupport (5.0.7.2) lib/active_support/lazy_load_hooks.rb:50:in `block in run_load_hooks'
+activesupport (5.0.7.2) lib/active_support/lazy_load_hooks.rb:49:in `each'
+activesupport (5.0.7.2) lib/active_support/lazy_load_hooks.rb:49:in `run_load_hooks'
+activerecord (5.0.7.2) lib/active_record/base.rb:324:in `<module:ActiveRecord>'
+activerecord (5.0.7.2) lib/active_record/base.rb:24:in `<top (required)>'
+activesupport (5.0.7.2) lib/active_support/dependencies.rb:293:in `require'
+activesupport (5.0.7.2) lib/active_support/dependencies.rb:293:in `block in require'
+activesupport (5.0.7.2) lib/active_support/dependencies.rb:259:in `load_dependency'
+activesupport (5.0.7.2) lib/active_support/dependencies.rb:293:in `require'
+activerecord (5.0.7.2) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.7.2) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/handler/webrick.rb:86:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.9ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_kjgmez__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__247802530585599637_70225675486380 at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (67.0ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (140.5ms)
+Started GET "/" for ::1 at 2019-06-20 10:51:47 -0400
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with id primary found.):
+  
+activerecord (5.0.7.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `retrieve_connection'
+activerecord (5.0.7.2) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.7.2) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.7.2) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.7.2) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/handler/webrick.rb:86:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (80.9ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_kjgmez__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__247802530585599637_70225676419020 at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (62.1ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (149.9ms)
+Started GET "/search" for ::1 at 2019-06-20 10:51:52 -0400
+  
+ActiveRecord::ConnectionNotEstablished (No connection pool with id primary found.):
+  
+activerecord (5.0.7.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:882:in `retrieve_connection'
+activerecord (5.0.7.2) lib/active_record/connection_handling.rb:128:in `retrieve_connection'
+activerecord (5.0.7.2) lib/active_record/connection_handling.rb:91:in `connection'
+activerecord (5.0.7.2) lib/active_record/migration.rb:559:in `connection'
+activerecord (5.0.7.2) lib/active_record/migration.rb:546:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/handler/webrick.rb:86:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.2ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_kjgmez__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__247802530585599637_70225669425400 at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (60.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (137.7ms)
+Started GET "/" for ::1 at 2019-06-20 10:54:59 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=3NKI23YT5TKE1DSJ2HKOUDYZWAD503UIECGQ5PGHPWPQRY1F&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=JCQQ3IMMAEJXZW2X3JKEYPAAFHKBJTRUCCNTC5OJUQ5O4BRB" for ::1 at 2019-06-20 10:55:11 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/auth"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/handler/webrick.rb:86:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [3 times] (7.2ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.7ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (110.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_kjgmez__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__2165728159173084653_70343755662860 at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (72.5ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (151.8ms)
+Started GET "/search" for ::1 at 2019-06-20 10:55:27 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=3NKI23YT5TKE1DSJ2HKOUDYZWAD503UIECGQ5PGHPWPQRY1F&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2019-06-20 11:19:10 -0400
+Processing by SearchesController#friends as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=3NKI23YT5TKE1DSJ2HKOUDYZWAD503UIECGQ5PGHPWPQRY1F&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=21D5R43OKJZ3ULZQ3OTFGDJCEECDPKQFUTKVBAFI3RZKM4CA" for ::1 at 2019-06-20 11:19:12 -0400
+  
+ActionController::RoutingError (uninitialized constant SessionController):
+  
+activesupport (5.0.7.2) lib/active_support/inflector/methods.rb:268:in `const_get'
+activesupport (5.0.7.2) lib/active_support/inflector/methods.rb:268:in `block in constantize'
+activesupport (5.0.7.2) lib/active_support/inflector/methods.rb:266:in `each'
+activesupport (5.0.7.2) lib/active_support/inflector/methods.rb:266:in `inject'
+activesupport (5.0.7.2) lib/active_support/inflector/methods.rb:266:in `constantize'
+actionpack (5.0.7.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/handler/webrick.rb:86:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered collection of /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [5 times] (2.5ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (97.6ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_kjgmez__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__2165728159173084653_70343755509040 at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (59.8ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (136.5ms)
+Started GET "/auth?code=TA1452XF4S33NUDGP0W0PANFPRFAZGBXGEQ304ZDNHFOMA3D" for ::1 at 2019-06-20 11:20:26 -0400
+  
+AbstractController::ActionNotFound (The action 'secret' could not be found for SessionsController):
+  
+actionpack (5.0.7.2) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.7.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/handler/webrick.rb:86:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_kjgmez__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__2165728159173084653_70343740090620 at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (59.7ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (134.6ms)
+Started GET "/" for ::1 at 2019-06-20 11:25:48 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=3NKI23YT5TKE1DSJ2HKOUDYZWAD503UIECGQ5PGHPWPQRY1F&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=RVOX40M4EF5LISN41EGMMZQZVULMBJOPHXGOIWQH5LKVMVAZ" for ::1 at 2019-06-20 11:25:55 -0400
+  
+ActionController::RoutingError (undefined method `skip_before_action' for main:Object):
+  
+app/controllers/sessions_controller.rb:1:in `<top (required)>'
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [5 times] (1.9ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.9ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (92.5ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_kjgmez__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__764271824736152532_70101470368700 at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (64.1ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (140.2ms)
+Started GET "/auth?code=RVOX40M4EF5LISN41EGMMZQZVULMBJOPHXGOIWQH5LKVMVAZ" for ::1 at 2019-06-20 11:27:09 -0400
+  
+LoadError (Unable to autoload constant Application_controller, expected /Users/kjgmez/web-auth-readme-online-web-pt-092418/app/controllers/application_controller.rb to define it):
+  
+app/controllers/sessions_controller.rb:1:in `<top (required)>'
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.9ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (78.2ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_kjgmez__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__764271824736152532_70101517277320 at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (60.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (139.0ms)
+Started GET "/auth?code=RVOX40M4EF5LISN41EGMMZQZVULMBJOPHXGOIWQH5LKVMVAZ" for ::1 at 2019-06-20 11:27:25 -0400
+  
+AbstractController::ActionNotFound (The action 'secret' could not be found for SessionsController):
+  
+actionpack (5.0.7.2) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.7.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/handler/webrick.rb:86:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_kjgmez__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__764271824736152532_70101488221960 at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (61.5ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (138.0ms)
+Started GET "/search" for ::1 at 2019-06-20 11:28:26 -0400
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=3NKI23YT5TKE1DSJ2HKOUDYZWAD503UIECGQ5PGHPWPQRY1F&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=GX3BXBBQBKRYNE3XNAOUZ3BCUMZVJTPODZPB3TH3I5ALKWU1" for ::1 at 2019-06-20 11:28:35 -0400
+  
+AbstractController::ActionNotFound (The action 'secret' could not be found for SessionsController):
+  
+actionpack (5.0.7.2) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.7.2) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.7.2) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.2) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.2) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.2) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.2) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/handler/webrick.rb:86:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_kjgmez__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__764271824736152532_70101488033680 at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (57.4ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (131.9ms)
+Started GET "/auth?code=GX3BXBBQBKRYNE3XNAOUZ3BCUMZVJTPODZPB3TH3I5ALKWU1" for ::1 at 2019-06-20 11:29:19 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"GX3BXBBQBKRYNE3XNAOUZ3BCUMZVJTPODZPB3TH3I5ALKWU1"}
+Started GET "/auth?code=5YYGLLKJ22O1Y4KXYFQ4PNJ4GB3YQQ4UND0OCJXNRVWHV0XN" for ::1 at 2019-06-20 11:29:27 -0400
+Completed 500 Internal Server Error in 35040ms (ActiveRecord: 0.0ms)
+
+
+  
+Faraday::ConnectionFailed (Failed to open TCP connection to foursquare.com:443 (getaddrinfo: nodename nor servname provided, or not known)):
+  
+app/controllers/sessions_controller.rb:6:in `create'
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.9ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_kjgmez__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__764271824736152532_70101471933600 at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (62.0ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (133.1ms)
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"5YYGLLKJ22O1Y4KXYFQ4PNJ4GB3YQQ4UND0OCJXNRVWHV0XN"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 6240ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-20 11:30:00 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 310ms (Views: 308.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/firends" for ::1 at 2019-06-20 11:30:30 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/firends"):
+  
+actionpack (5.0.7.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.2) lib/rails/engine.rb:522:in `call'
+rack (2.0.7) lib/rack/handler/webrick.rb:86:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:140:in `service'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/httpserver.rb:96:in `run'
+/Users/kjgmez/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered collection of /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [5 times] (1.5ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (86.1ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from acceptable_content_type? at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/middleware.rb:58)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from ___sers_kjgmez__rvm_gems_ruby_______gems_web_console_______lib_web_console_templates_console_js_erb__764271824736152532_70101488912400 at /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb:491)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (57.6ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendering /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kjgmez/.rvm/gems/ruby-2.5.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (131.7ms)
+Started GET "/friends" for ::1 at 2019-06-20 11:30:43 -0400
+Processing by SearchesController#friends as HTML
+  Rendering searches/friends.html.erb within layouts/application
+  Rendered searches/friends.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 187ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
